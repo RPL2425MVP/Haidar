@@ -1,0 +1,70 @@
+/* Pusatkan seluruh halaman */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+    background-color: #3C86FF;
+}
+
+/* Box container */
+.container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+
+    /* Border + shadow abu */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+    width: 350px;
+    text-align: center; /* agar icon dan title tetap di tengah */
+}
+
+/* H1 bagian icon di atas text */
+.container h1 {
+    display: flex;
+    flex-direction: column; /* icon → atas, teks → bawah */
+    align-items: center;
+    gap: -10px;
+    margin-bottom: 30px;
+}
+
+/* Label digeser ke kiri */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #3a7afe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #2f69d9;
+}
